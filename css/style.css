@@ -1,0 +1,839 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    
+    font-size: 14px;
+}
+
+.section-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background-color: #129CF3;
+    margin-left: -30px;
+}
+
+
+.section-title p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 28px;  
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.scroll-wrapper {
+    text-align:center;
+}
+/*.scroll {   
+    font-size: 50px;
+    color: #33383b;
+   -webkit-animation: scrolling 3s ease infinite;
+   -moz-animation: scrolling 3s ease infinite;
+   -o-animation: scrolling 3s  ease infinite;
+   animation: scrolling 3s ease infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translate(0);
+  }
+ 
+  50% {
+    transform: translate(0,40px);}
+
+ 
+  100% {
+     transform: translate(0);
+  }
+} */
+
+/* Navbar*/
+
+.navbar-default {
+    background-color: black;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #B5B5B5;
+    transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-default .navbar-nav > .active>a, 
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: white;
+    color: #129CF3;
+} 
+.nav-item{
+    text-align: center;
+}
+/* Header */
+.header {
+  /* background: linear-gradient(135deg, rgba(49,24,131,0.2) 0%, rgba(72,56,149,0.2) 100%), url("https://fsmedia.imgix.net/7c/64/de/56/fb79/497e/b8ca/d146bcdd00ab/space-genetics-is-essential-making-life-in-space-work.jpeg") center no-repeat; */
+    background-image: url("https://fsmedia.imgix.net/7c/64/de/56/fb79/497e/b8ca/d146bcdd00ab/space-genetics-is-essential-making-life-in-space-work.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+.header-overlay {
+    background-color: rgba(49,24,131,0.1);
+
+}
+.logo {
+    padding-bottom: 50px;
+    margin-left: 50px ;
+
+}
+.header-text h1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 30px;
+    text-transform: unset;
+}
+.header-text p {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+.header-btns {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+/*Download button */
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+    
+    background: transparent;
+    border-color: #129CF3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 1s;
+}
+.btn-download:hover {
+    background-color: #129CF3;
+    color: #fff;    
+}
+.btn-explore,
+.btn-explore:focus,
+.btn-explore:active,
+.btn-explore:visited {
+    color: #A9ADB0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 500;
+    background: transparent;
+    transition: all 1s;    
+}
+.btn-explore:hover {
+    color: #fff;
+}
+.btn-explore i {
+    font-size: 20px;
+    padding-left: 5px;
+    color: #129CF3;
+}
+
+.download-button{
+    margin: 50px;
+}
+
+
+.header-phone img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;   
+}
+
+/* About Us */
+.choose-us-wraper {
+    padding-top: 50px;
+}
+
+.about-app img {
+ margin-top: 8px;
+ width: 100%;
+ height: auto;    
+}
+.choose-us-title {
+    padding-bottom: 50px;   
+}
+.choose-us-title h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+.choose-us-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px; 
+    height: 2px;
+    background-color: #129CF3;
+}
+
+.choose-us-title p {
+    margin-top: 40px;
+    font-size: 23px;
+    line-height: 24px;
+}
+
+.choose-us-item {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
+.choose-us-item div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.choose-us-item div i {
+    font-size: 55px;
+    color: #129CF3;
+    transition: all 1s;
+}
+.choose-us-item h3 {
+ color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.choose-us-item p {
+    color: #727272;
+    font-size: 15px;
+    font-weight:600;
+} 
+/* Testimonials */
+.testimonial {
+    /*    background: linear-gradient(135deg, rgba(49,24,131,0.1) 0%, rgba(72,56,149,0.8) 100%), url("https://www.elsetge.cat/myimg/f/83-831894_artwork-fantasy-art-astronaut-space-stars-sun-astronaut.jpg") center no-repeat; 
+    */
+    background-image: url("https://www.elsetge.cat/myimg/f/83-831894_artwork-fantasy-art-astronaut-space-stars-sun-astronaut.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.testimonial-overlay {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.carousel-indicators {
+    bottom: -10px;
+}
+.carousel-inner .item img {
+    border: 2px solid #129CF3;
+    border-radius: 7%;
+    width: auto;
+    height: auto;
+}
+.testimonial-caption {
+    padding-bottom: 40px;
+}
+.testimonial-caption h2 {
+    color: #129CF3;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+.testimonial-caption h4 {
+    color: #129CF3;
+}
+
+.testimonial-caption h4 span {
+    
+    color: #D8D8D8;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.testimonial-caption p {
+    color: #D8D8D8;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 10px;
+}
+/* Features */
+.features-inner-wrapper {
+    
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.left-feature-item {
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+.left-feature-item-icon {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    
+}
+.left-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+.left-feature-item p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.feature-phone img {
+   
+}
+.right-feature-item {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    margin-top: 35px;
+    text-align: left;
+}
+.right-feature-item-icon {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    font-size: 40px;
+    color: #129CF3;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    
+}
+.right-feature-item h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+    
+    
+}
+.right-feature-item p {
+ 
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+/*Purchase Now */
+.purchase-now {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.purchase-now p {
+    color: #dfdfdf;
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn-pruchase-now,
+.btn-pruchase-now:active,
+.btn-pruchase-now:focus,
+.btn-pruchase-now:visited 
+{
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+    
+}
+
+.btn-pruchase-now:hover {
+    background-color: #1274B1;
+    border-color: #316B90;
+}
+
+/* Counter */
+.counter {
+    background-image: url("https://fsmedia.imgix.net/7c/64/de/56/fb79/497e/b8ca/d146bcdd00ab/space-genetics-is-essential-making-life-in-space-work.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(49,24,131,0.2);
+}
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.counter-item p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+
+/*Download*/
+.img-responsive{
+    width: 50%;
+    margin:auto;  
+}
+.available-on {
+    
+    background-color: #292c2f;
+    margin-top: -8px;
+    position: relative;
+}
+.available-title {
+    padding-top: 75px;
+}
+.available-title h2 {
+    
+    color: #fff;
+    font-size: 30px;
+}
+.available-title p {
+    color: #B5B5B5;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.available-on-item {
+    text-align: center;
+    border-left: 1px solid #0F1217;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.available-on-item:hover {
+    background-color: #121212;
+}
+.available-on-item i {
+    color: #129CF3;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.available-on-item:hover i {
+    opacity: 0;
+}
+.available-on-inner {
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.available-on-inner h2 {
+    text-align: center;
+    font-weight:  300;
+    color: #D7DADB;
+    font-size: 16px;
+}
+
+.available-on-item:hover div.available-on-inner {
+    opacity: 1;
+}
+/* Contact Us */
+.contact-us-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+}
+#message {
+    height: 117px;
+    resize: none;
+}
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    
+    background-color: transparent;
+    border: 1px solid #129CF3;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #129CF3;
+    outline: 0px !important;
+    transition: all 1s;
+}
+.submit-btn:hover {
+    background: #129CF3;
+    color: #fff;
+    border-color: #129CF3;
+}
+.social-icons {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.social-icons ul {
+    margin:0;
+    padding: 0;
+    text-align: center;
+    
+}
+.social-icons ul li { 
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.social-icons ul li a {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 49px;
+    color: #9d9d9d;
+     transition: all 1s;
+}
+.social-icons ul li a:hover {
+    
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #fff;
+} 
+.social-icons ul li a i {
+    font-size: 39px;
+}
+
+
+/* Footer */
+
+.footer-distributed{
+    background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px;
+	padding: 10px 10px;
+    margin-top: 10px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+}
+ 
+.footer-distributed .footer-left{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #129CF3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-company-name{
+	color:  #8f9296;
+	font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #129CF3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+    width: 20%;
+    margin-top: -50px;
+}
+
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+    margin-top: 50px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
